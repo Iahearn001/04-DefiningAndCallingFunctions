@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (4 pts)
+# DONE: 1. (4 pts)
 #
 #   As you saw in your pre-class quiz, we can also define functions that take
 #   information and do stuff with it. This information that the function uses
@@ -22,7 +22,12 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+def name_and_color(name, color):
+    test1 = (f"Your name is {name} and your favorite color is {color}!")
+    print(test1)
+name = "Jack"
+color = "cyan"
+name_and_color(name, color)
 ###############################################################################
 # TODO: 2. (4 pts)
 #
@@ -54,3 +59,10 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+def display_user_info(name, email, age):
+    test3 = (f"Name: {name} Email: {email} Age: {age}")
+    print(test3)
+name = "Isidore Ahearn"
+email = "itjahearn@gmai.com"
+age = "19"
+display_user_info(name, email, age)
