@@ -18,7 +18,11 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+def volume(*volume):
+    print(length * width * height)
+length = 3
+width = 2
+height = 4
 ###############################################################################
 # TODO: 2. (2 pts)
 #
@@ -44,4 +48,5 @@
 #   just made.
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
-###############################################################################
+##############################################################################
+volume(length, width, height)
